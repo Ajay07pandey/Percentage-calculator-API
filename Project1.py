@@ -47,6 +47,4 @@ def calculate():
         return redirect(url_for(result,score=average_marks))
 
          # return render_template('calculate.html',results=average_marks)
-
-if __name__=='__main__':
- app.run(debug=True)
+         
